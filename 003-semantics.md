@@ -33,7 +33,7 @@ f = \k -> if k == 0
           else k * 2
 ```
 
-Reduce `f (f 0)`.
+Reduce `f (f 0)`, naming each reduction rule.
 
 ## Part 4
 
@@ -47,7 +47,9 @@ f =
     else x * f (x - 1)
 ```
 
-Reduce `f 3`. Hint: β-reduce as soon as possible.
+Reduce `f 3`, naming each reduction rule.
+
+Hint: β-reduce as soon as possible.
 
 ## Part 5
 
