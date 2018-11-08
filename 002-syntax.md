@@ -47,5 +47,5 @@ putMany =
   \count -> if count == 0
             then putStrLn lastline
             else putStrLn line >>
-                 putMany line (count - 1)
+                 putMany line lastline (count - 1)
 ```
